@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="16진수연산.c" />
     <ClCompile Include="scanfsample.c" />
     <ClCompile Include="덧셈뺼셈연산자.c" />
     <ClCompile Include="소스.c" />

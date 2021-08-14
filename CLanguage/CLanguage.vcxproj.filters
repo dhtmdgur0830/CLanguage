@@ -24,5 +24,8 @@
     <ClCompile Include="덧셈뺼셈연산자.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16진수연산.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

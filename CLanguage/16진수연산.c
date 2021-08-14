@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-void main()
+void 16Áø¼ö()
 {
 	int nResult = 0x11223344;
 
@@ -10,6 +8,5 @@ void main()
 	printf("%X\n", nResult | 0x2211FFFF);
 	printf("%X\n", nResult ^ 0x2211FFFF);
 	printf("%X\n", ~nResult);
+
 }
-
-
