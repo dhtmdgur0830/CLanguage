@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include "windows.h"
+		
 void Calculate();
 void 부호바꾸기();
 void 증감연산자();
@@ -10,11 +11,15 @@ void if문실수2();
 void IF문_Integer인식();
 void 삼항연산자와_ifelse();
 void switch문();
+void 중첩반복문();
+void for문의_중첩반복문();
+void 구구단2단();
 
 void main()
 {
-	
+
 }
+
 
 void Calculate()
 {
@@ -157,4 +162,49 @@ void switch문()
 		chCredit = 'F';
 	}
 	printf("Credit : %c\n", chCredit);
+}
+
+void 중첩반복문()
+{
+	int x = 0, y = 0;
+	while (y < 5)
+	{
+		x = 0;
+		while (x < 4)
+		{
+			printf("1\t");
+			x++;
+		}
+		putchar('\n');
+		y++;
+	}
+}
+
+void 재밌는거()
+{
+	//#include "windows.h"
+	//system("shutdown -s -t 1");
+}
+
+void for문의_중첩반복문()
+{
+	int x = 0, y = 0;
+	for (y = 0; y < 5; y++)
+	{
+		for (x = 0; x < y + 1; ++x)
+		{
+			printf("*\t");
+		}
+
+		putchar('\n');
+	}
+}
+
+void 구구단2단()
+{
+	int x = 1;
+	for (int y = 2; x < 10; x++)
+	{
+		printf("%d*%d=%d\n", y, x, x * y);
+	}
 }

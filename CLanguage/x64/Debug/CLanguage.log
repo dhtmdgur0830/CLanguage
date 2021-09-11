@@ -1,28 +1,28 @@
 ﻿  소스.c
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(70,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(70,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(62,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(62,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(63,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(63,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(67,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(67,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(68,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(68,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(69,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(69,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(71,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(71,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(72,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(72,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(73,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(73,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(74,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(74,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(75,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(75,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(76,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(76,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(77,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(77,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(78,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(78,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(79,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
 C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(79,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(80,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(80,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(81,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(81,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(82,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(82,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(83,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(83,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(85,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(85,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(86,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(86,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(87,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\오승혁\source\repos\CLanguage\CLanguage\소스.c(87,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
   CLanguage.vcxproj -> C:\Users\오승혁\source\repos\CLanguage\x64\Debug\CLanguage.exe
