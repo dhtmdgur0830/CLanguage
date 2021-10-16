@@ -14,11 +14,42 @@ void switch문();
 void 중첩반복문();
 void for문의_중첩반복문();
 void 구구단2단();
+void 별반복문();
+void 역별반복문();
 
 void main()
 {
+	int i, j;
+	for (i = 1; i < 10; i = i + 1)
+	{
+		for (int j = i; j < 10; j = j + 1)
+		{
+			printf("ㅇ");
+		}
 
+		for (int star = 1; star <= i * 2 - 1; star++)
+		{
+			printf("★");
+		}
+
+		printf("\n");	
+	}
+
+	for (size_t i = 0; i <= 9; i++)
+	{
+		for (size_t j = 1; j <= i; j = j + 1)
+		{
+			printf("ㅇ");
+		}
+
+		for (int star = 1; star <= 19 - i * 2; star = star + 1)
+		{
+			printf("★");
+		}
+		printf("\n");
+	}
 }
+
 
 
 void Calculate()
@@ -191,7 +222,7 @@ void for문의_중첩반복문()
 	int x = 0, y = 0;
 	for (y = 0; y < 5; y++)
 	{
-		for (x = 0; x < y + 1; ++x)
+		for (x = 0; x < y+1; ++x)
 		{
 			printf("*\t");
 		}
@@ -207,4 +238,48 @@ void 구구단2단()
 	{
 		printf("%d*%d=%d\n", y, x, x * y);
 	}
+}
+
+
+void 구구단2단부터9단까지()
+{
+
+	{
+		for (int dan = 2; dan < 10; dan++)
+		{
+			for (int y = 1; y < 10; y++)
+			{
+				printf("%d * %d=%d\n", dan, y, dan * y);
+			}
+			printf("\n");
+		}
+	}
+}
+
+void 별반복문()
+{
+	int i, j;
+	for (i = 1; i <= 10; i = i + 1)
+	{
+		for (j = 1; j <= i; j = j + 1)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+void 역별반복문()
+{
+	int i, j;
+	for (i = 1; i <= 10; i = i + 1)
+	{
+		for (j = i; j <= 10; j = j + 1)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
 }
