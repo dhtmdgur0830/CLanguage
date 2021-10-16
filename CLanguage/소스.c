@@ -1,23 +1,71 @@
 #include <stdio.h>
 #include "windows.h"
-		
-void Calculate();
-void 부호바꾸기();
-void 증감연산자();
-void sizeOf연산자();
-void Pinter();
-void if문실수();
-void if문실수2();
-void IF문_Integer인식();
-void 삼항연산자와_ifelse();
-void switch문();
-void 중첩반복문();
-void for문의_중첩반복문();
-void 구구단2단();
-void 별반복문();
-void 역별반복문();
+
+//void Calculate();
+//void 부호바꾸기();
+//void 증감연산자();
+//void sizeOf연산자();
+//void Pinter();
+//void if문실수();
+//void if문실수2();
+//void IF문_Integer인식();
+//void 삼항연산자와_ifelse();
+//void switch문();
+//void 중첩반복문();
+//void for문의_중첩반복문();
+//void 구구단2단();
+//void 별반복문();
+//void 역별반복문();
+//void 마름모();
 
 void main()
+{
+	int a, b, c, d, e;
+	printf("숫자 5개를 입력하십시오");
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
+	scanf_s("%d", &c);
+	scanf_s("%d", &d);
+	scanf_s("%d", &e);
+
+	int maxValue = GetMaxValue(a, b);
+	maxValue = GetMaxValue(maxValue, c);
+	maxValue = GetMaxValue(maxValue, d);
+	maxValue = GetMaxValue(maxValue, e);
+	printf_s("가장 큰 값은 : %d\n", maxValue);
+
+	int minValue = GetMinValue(a, b);
+	minValue = GetMinValue(minValue, c);
+	minValue = GetMinValue(minValue, d);
+	minValue = GetMinValue(minValue, e);
+	printf_s("가장 작은 값은 : %d", minValue);
+}
+
+int GetMaxValue(int a, int b)
+{
+	if (a > b)
+	{
+		return a;
+	}
+	else
+	{
+		return b;
+	}
+}
+
+int GetMinValue(int a, int b)
+{
+	if (a < b)
+	{
+		return a;
+	}
+	else
+	{
+		return b;
+	}
+}
+
+void 마름모()
 {
 	int i, j;
 	for (i = 1; i < 10; i = i + 1)
@@ -32,7 +80,7 @@ void main()
 			printf("★");
 		}
 
-		printf("\n");	
+		printf("\n");
 	}
 
 	for (size_t i = 0; i <= 9; i++)
@@ -49,8 +97,6 @@ void main()
 		printf("\n");
 	}
 }
-
-
 
 void Calculate()
 {
@@ -243,17 +289,14 @@ void 구구단2단()
 
 void 구구단2단부터9단까지()
 {
-
+	for (int dan = 1; dan < 10; dan++)
 	{
-		for (int dan = 2; dan < 10; dan++)
+		for (int value = 2; value < 10; value++)
 		{
-			for (int y = 1; y < 10; y++)
-			{
-				printf("%d * %d=%d\n", dan, y, dan * y);
-			}
-			printf("\n");
+			printf_s("%d x %d = %d\n", dan, value, dan * value);
 		}
 	}
+
 }
 
 void 별반복문()
