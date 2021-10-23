@@ -17,52 +17,13 @@
 //void 별반복문();
 //void 역별반복문();
 //void 마름모();
+//void 가장큰값작은값();
+//void 다섯번별탭중첩반복문();
+//void 다섯번숫자탭중첩반복문();
 
 void main()
 {
-	int a, b, c, d, e;
-	printf("숫자 5개를 입력하십시오");
-	scanf_s("%d", &a);
-	scanf_s("%d", &b);
-	scanf_s("%d", &c);
-	scanf_s("%d", &d);
-	scanf_s("%d", &e);
-
-	int maxValue = GetMaxValue(a, b);
-	maxValue = GetMaxValue(maxValue, c);
-	maxValue = GetMaxValue(maxValue, d);
-	maxValue = GetMaxValue(maxValue, e);
-	printf_s("가장 큰 값은 : %d\n", maxValue);
-
-	int minValue = GetMinValue(a, b);
-	minValue = GetMinValue(minValue, c);
-	minValue = GetMinValue(minValue, d);
-	minValue = GetMinValue(minValue, e);
-	printf_s("가장 작은 값은 : %d", minValue);
-}
-
-int GetMaxValue(int a, int b)
-{
-	if (a > b)
-	{
-		return a;
-	}
-	else
-	{
-		return b;
-	}
-}
-
-int GetMinValue(int a, int b)
-{
-	if (a < b)
-	{
-		return a;
-	}
-	else
-	{
-		return b;
-	}
+	
 }
 
 void 마름모()
@@ -325,4 +286,75 @@ void 역별반복문()
 		printf("\n");
 	}
 	return 0;
+}
+void 가장큰값작은값()
+{
+	int a, b, c, d, e;
+	printf("숫자 5개를 입력하십시오");
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
+	scanf_s("%d", &c);
+	scanf_s("%d", &d);
+	scanf_s("%d", &e);
+
+	int maxValue = GetMaxValue(a, b);
+	maxValue = GetMaxValue(maxValue, c);
+	maxValue = GetMaxValue(maxValue, d);
+	maxValue = GetMaxValue(maxValue, e);
+	printf_s("가장 큰 값은 : %d\n", maxValue);
+
+	int minValue = GetMinValue(a, b);
+	minValue = GetMinValue(minValue, c);
+	minValue = GetMinValue(minValue, d);
+	minValue = GetMinValue(minValue, e);
+	printf_s("가장 작은 값은 : %d", minValue);
+}
+
+int GetMaxValue(int a, int b)
+{
+	if (a > b)
+	{
+		return a;
+	}
+	else
+	{
+		return b;
+	}
+}
+
+int GetMinValue(int a, int b)
+{
+	if (a < b)
+	{
+		return a;
+	}
+	else
+	{
+		return b;
+	}
+}
+
+void 다섯번별탭중첩반복문()
+{
+	for (size_t c = 1; c <= 5; c++)
+	{
+		for (size_t i = 1; i <= 5; i++)
+		{
+			printf_s("*\t");
+		}
+		printf_s("\n");
+	}
+}
+
+void 다섯번숫자탭중첩반복문()
+{
+	int totalvalue = 1;
+	for (size_t i = 1; i <= 5; i++)
+	{
+		for (size_t c = 1; c <= 5; c++)
+		{
+			printf_s("%d\t", totalvalue++);
+		}
+		printf_s("\n");
+	}
 }
